@@ -75,7 +75,7 @@
 
 # v9.0.0b1
 **Breaking Change:**
-- Move dependancy adal under extra require [kubernetes-client/python-base#108](https://github.com/kubernetes-client/python-base/pull/108)
+- Move dependency adal under extra require [kubernetes-client/python-base#108](https://github.com/kubernetes-client/python-base/pull/108)
 
 **Bug Fix:**
 - Honor the specified resource version in stream request when watch restarts [kubernetes-client/python-base#109](https://github.com/kubernetes-client/python-base/pull/109)
@@ -323,7 +323,7 @@
 
 - Add context switch to kube config loader #46 
 - Add default kube config location #64
-- Add suport for accessing multiple clusters #7
+- Add support for accessing multiple clusters #7
 - Bugfix: Python client does not resolve relative paths in kubeconfig #68
 - Bugfix: `read_namespaced_pod_log` get None response #57
 - Improved test coverage #54
